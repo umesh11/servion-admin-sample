@@ -1,0 +1,28 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "item": "Item 1",
+      "price": "$8",
+      "cass": "B"
+    },
+    {
+      "id": "4",
+      "item": "Item 8",
+      "price": "$12",
+      "cass": "C"
+    },
+    {
+      "id": "8",
+      "item": "Item 8",
+      "price": "$ 6",
+      "cass": "A"
+    },
+    {
+      "id": "9",
+      "item": "Item 9",
+      "price": "$ 7",
+      "cass": "C"
+    }
+  ]
+}
