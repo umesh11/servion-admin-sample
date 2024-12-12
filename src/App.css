@@ -1,7 +1,77 @@
-.container {
-  
+
+/* Common CSS */
+.modify-buttons .btn {
+
+}
+.btn-green {
+    background-color: #096d3e;
+    color: white;
+    border-color: #096d3e;
+}
+.bg-blue {
+    background-color: rgba(0, 56, 115, 1);
+    color: #FFF;
+}
+.bg-blue-gradient {
+    background: rgb(0,45,92);
+    background: linear-gradient(90deg, rgba(0,45,92,1) 0%, rgba(0,60,122,1) 45%, rgba(37,113,193,1) 100%);
+}
+/* ---------------------------------------------------------- */
+
+/* Override CSS Start */
+.form-check-label {
+    /* padding: .5rem .8rem; */
+}
+.form-check-input:checked {
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+table.table.table-dark {
+    background-color: #212529;
+}
+/* Override CSS End */
+
+.btn-save,
+.btn-back {
+    min-width: 100px;
+    text-align: center;
+}
+.input-quantity {
+    max-width: 75px;
+}
+.input-quantity:disabled {
+    background-color: #e9ecef !important;
+}
+td{
+    height: 75px;
 }
 
-.table-container {
-    
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .table>:not(caption)>*>* {
+        padding: .5rem .8rem;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .table>:not(caption)>*>* {
+        padding: 1rem 1rem;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .table>:not(caption)>*>* {
+        padding: 1rem 2rem;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .btn-save,
+    .btn-back {
+        width: 100%;
+    }
 }

@@ -5,6 +5,9 @@ import AdminTable from './AdminTable';
 import EditAdmin from './EditAdmin';
 import ViewAdmin from './ViewAdmin';
 
+import './App.css';
+import AdminCart from './AdminCart/AdminCart';
+
 function App() {
 
   return (
@@ -15,6 +18,7 @@ function App() {
       <Route path='/admin/create' element={<CreateAdmin />}></Route>
       <Route path='/admin/edit/:adminId' element={<EditAdmin />}></Route>
       <Route path='/admin/view/:adminId' element={<ViewAdmin />}></Route>
+      <Route path='/admin/cart' element={<AdminCart />}></Route>
     </Routes>
     </BrowserRouter>
     </>
